@@ -1,0 +1,127 @@
+body {
+  background-color: rgb(211, 211, 211);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: xx-large;
+}
+
+#box {
+  position: relative;
+  margin: 5rem auto auto auto;
+  width: 80vw;
+  height: 40rem;
+  background-color: rgb(199, 212, 223);
+}
+
+#box > * {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+#startWindow {
+  font-size: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#startWindow > * {
+  margin: 1rem;
+}
+#gameWindow {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#wisielec {
+  margin-bottom: 1rem;
+  font-size: 54px;
+}
+#zagrajPonownie {
+  height: 30px;
+  width: 200px;
+  font-size: 16px;
+  margin-bottom: 2rem;
+}
+.literki {
+  font-size: 1.2rem;
+  display: flex;
+  margin-bottom: 0.5rem;
+  justify-content: space-around;
+  flex-direction: row;
+  height: 2rem;
+  width: 90%;
+}
+
+.literka {
+  display: flex;
+  background-color: rgb(177, 185, 214);
+  width: 1.5rem;
+  height: 1.5rem;
+  align-items: center;
+  justify-content: center;
+  border: 2px rgb(100, 107, 145) solid;
+  cursor: pointer;
+}
+#podpowiedzGuzik {
+  width: 8rem;
+  height: 2rem;
+}
+
+#haslo {
+  margin: 2rem;
+  display: flex;
+  flex-direction: row;
+  height: 2.5rem;
+}
+
+.literka-hasla {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  padding-bottom: 0.6rem;
+  width: 2rem;
+  height: 2rem;
+  margin: 0.5rem;
+  border-bottom: solid black 4px;
+}
+
+#podpowiedzTekst {
+  background-color: rgb(131, 186, 190);
+  margin: 1rem;
+  padding: 1rem;
+  visibility: hidden;
+  border: 2px rgb(100, 107, 145) solid;
+}
+
+#zycia {
+  margin: 0.5rem;
+  font-size: 1.5rem;
+}
+
+.maleOkienko {
+  display: flex;
+  margin: auto;
+  position: absolute;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 35%;
+  max-width: 13rem;
+  height: 15%;
+  visibility: hidden;
+}
+.maleOkienko > * {
+  margin: 0.5rem;
+}
+
+#gameover{
+  background-color: rgb(247, 78, 0);
+}
+
+#win{
+  background-color: rgb(50, 156, 226);
+}
